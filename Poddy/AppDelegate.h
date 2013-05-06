@@ -8,8 +8,18 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+	
+}
 
 @property (assign) IBOutlet NSWindow *window;
+
+
+// actions 
+
+- (IBAction)prevSongAct:(id)sender;
+- (IBAction)playPauseAct:(id)sender;
+- (IBAction)nextSongAct:(id)sender;
+
 
 @end

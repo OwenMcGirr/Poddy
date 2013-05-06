@@ -17,6 +17,7 @@
 		6CECFFDF1736B69C00A2CC5D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CECFFBF1736B69B00A2CC5D /* Cocoa.framework */; };
 		6CECFFE71736B69C00A2CC5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CECFFE51736B69C00A2CC5D /* InfoPlist.strings */; };
 		6CECFFEA1736B69C00A2CC5D /* PoddyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CECFFE91736B69C00A2CC5D /* PoddyTests.m */; };
+		6CECFFF41736B76C00A2CC5D /* ipod_classic.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6CECFFF31736B76C00A2CC5D /* ipod_classic.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6CECFFE61736B69C00A2CC5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CECFFE81736B69C00A2CC5D /* PoddyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoddyTests.h; sourceTree = "<group>"; };
 		6CECFFE91736B69C00A2CC5D /* PoddyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoddyTests.m; sourceTree = "<group>"; };
+		6CECFFF31736B76C00A2CC5D /* ipod_classic.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipod_classic.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		6CECFFC61736B69B00A2CC5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6CECFFF31736B76C00A2CC5D /* ipod_classic.jpeg */,
 				6CECFFC71736B69B00A2CC5D /* Poddy-Info.plist */,
 				6CECFFC81736B69B00A2CC5D /* InfoPlist.strings */,
 				6CECFFCB1736B69B00A2CC5D /* main.m */,
@@ -227,6 +230,7 @@
 				6CECFFCA1736B69B00A2CC5D /* InfoPlist.strings in Resources */,
 				6CECFFD01736B69B00A2CC5D /* Credits.rtf in Resources */,
 				6CECFFD61736B69B00A2CC5D /* MainMenu.xib in Resources */,
+				6CECFFF41736B76C00A2CC5D /* ipod_classic.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +456,7 @@
 				6CECFFEF1736B69C00A2CC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CECFFF01736B69C00A2CC5D /* Build configuration list for PBXNativeTarget "PoddyTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +465,7 @@
 				6CECFFF21736B69C00A2CC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
